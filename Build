@@ -1,0 +1,7 @@
+Commands to run the Python files . 
+1. Run the Master. py running this command python3 master.py filename \path to file (e.g)input.txt input/input.txt ( the directory where file is stored dor uploding)
+2. Run the chunk_server.py by riunning this command  python3 chunk_server.py 50051 output\output.txt  ( where the chunks to be save) ( chunks_server are stored localhost in this case)
+3. Run multiple Chunk severs by just replacing the port number like 50052,50053
+4. Run the client.py using command python3 Client.py upload filename \path to file
+5. Run the client.py using command python3 Client.py download filename
+6. Run the client.py using command python3 Client.py list
